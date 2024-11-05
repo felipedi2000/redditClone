@@ -50,7 +50,7 @@ Una tabla para guardar el usuario, su icono, el comentario, su id, fecha de guar
 
    1.1. Ingresa al directorio backend
    ```bash
-   cd redditClone/backend
+   cd backend
    ```
 
    Activa el entorno virtual:
