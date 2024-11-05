@@ -98,9 +98,8 @@ Una tabla para guardar el usuario, su icono, el comentario, su id, fecha de guar
    cd frontend/frontReddit
    ```
 
-   Instale las dependencias necesarias:
+   Instale las dependencias (si es necesario):
    ```bash
-   npm install
    npm install -g vite
    npm i react-router-dom axios react-hook-form
    npm install prop-types
