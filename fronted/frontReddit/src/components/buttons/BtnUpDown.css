@@ -1,0 +1,8 @@
+.btn-up-down{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: relative;
+    top: -3.1px;
+    left: -2.1px;
+}
