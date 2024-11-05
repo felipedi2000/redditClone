@@ -56,7 +56,7 @@ Una tabla para guardar el usuario, su icono, el comentario, su id, fecha de guar
    Activa el entorno virtual:
    ```bash
    env\Scripts\activate
-
+   ```
    Inicia el servidor del proyecto:
    ```bash
    python manage.py runserver
