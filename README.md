@@ -100,6 +100,8 @@ Una tabla para guardar el usuario, su icono, el comentario, su id, fecha de guar
 
    Instale las dependencias necesarias:
    ```bash
+   npm install
+   npm install -g vite
    npm i react-router-dom axios react-hook-form
    npm install prop-types
    npm install axios

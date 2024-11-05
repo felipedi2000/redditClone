@@ -3,8 +3,7 @@ import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutline
 import ShortcutOutlinedIcon from '@mui/icons-material/ShortcutOutlined';
 import TurnedInNotOutlinedIcon from '@mui/icons-material/TurnedInNotOutlined';
 import DropMenu from "../drops/DropMenu";
-import image from './rIcon.jpg'
-
+import image from './iconoPer.jpg'
 const BtnGrouPost = () => {
 
   const buttonStyles = {
