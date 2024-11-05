@@ -205,25 +205,31 @@ Una tabla para guardar el usuario, su icono, el comentario, su id, fecha de guar
 
 
 **Fronted**
-redditClone/
-frontend/                  # Carpeta que contiene el código del frontend
-├── frontReddit/           # Aplicación React
-│   ├── node_modules/      # Dependencias de Node.js
-│   ├── public/             # Archivos públicos (HTML, imágenes)
-│   └── src/               # Código fuente de la aplicación
-│       ├── api/           # API archivos js encargador de comunicar back con front
-│       ├── assets/        # Recursos estáticos como imágenes
-│       ├── components/    # Componentes de React Botones, inputs, menus, otros.
-│       ├── pages/         # Páginas de la aplicación
-│       ├── styles/        # Archivos de estilos CSS
-│       ├── utils/         # Funciones utilitarias
-│       ├── App.jsx        # Componente principal de la aplicación
-│       ├── main.jsx       # Punto de entrada de la aplicación
-│       ├── index.html     # Archivo HTML principal
-│       ├── eslint.config.js
-│       ├── package.json    # Dependencias del frontend
-│       ├── package-lock.json
-└───────└── vite.config.js
+# Frontend del Proyecto redditClone
+
+## Carpeta Principal
+- **frontReddit/**: Aplicación React
+
+### Estructura de la Aplicación
+- **node_modules/**: Dependencias de Node.js
+- **public/**: Archivos públicos (HTML, imágenes)
+
+### Código Fuente
+- **src/**: Código fuente de la aplicación
+  - **api/**: Archivos JS encargados de comunicar al backend con el frontend
+  - **assets/**: Recursos estáticos como imágenes
+  - **components/**: Componentes de React (botones, inputs, menús, otros)
+  - **pages/**: Páginas de la aplicación
+  - **styles/**: Archivos de estilos CSS
+  - **utils/**: Funciones utilitarias
+  - **App.jsx**: Componente principal de la aplicación
+  - **main.jsx**: Punto de entrada de la aplicación
+  - **index.html**: Archivo HTML principal
+  - **eslint.config.js**
+  - **package.json**: Dependencias del frontend
+  - **package-lock.json**
+  - **vite.config.js**: Configuración de Vite
+
 
 
 ## Estado del Proyecto
