@@ -1,0 +1,16 @@
+.root {
+  width: 100%;
+  border: none;
+}
+
+
+.accordion-heading {
+  font-size: 10px;
+  color: black;
+  box-shadow: none;
+}
+
+.accordion-text {
+  font-size: 10px;
+  color: rgb(3, 3, 3);
+}
