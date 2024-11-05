@@ -1,6 +1,6 @@
 # Nombre del Proyecto
 
-Clon de la interfaz de un post de react.
+Clon de la interfaz de un post de reddit.
 
 ## Tabla de Contenidos
 
