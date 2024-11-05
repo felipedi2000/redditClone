@@ -95,7 +95,6 @@ Una tabla para guardar el usuario, su icono, el comentario, su id, fecha de guar
 
    1.2. Abra otra terminal:
    ```bash
-   cd ..
    cd frontend/frontReddit
    ```
 
@@ -125,7 +124,7 @@ Una tabla para guardar el usuario, su icono, el comentario, su id, fecha de guar
 
    - Asegúrase de que el entorno virtual está activado. Si aún no lo ha hecho, navege al directorio del backend y active el entorno virtual:
    ```bash
-   cd redditClone/backend
+   cd backend
    env\Scripts\activate
    ```
 
