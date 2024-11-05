@@ -174,33 +174,37 @@ Una tabla para guardar el usuario, su icono, el comentario, su id, fecha de guar
        ```
 5. Estrucura
 **Backend**
-redditClone/
-├── backend/                   # Carpeta que contiene el código del backend
-│   ├── appApi/                # Aplicación API
-│   │   ├── __pycache__/       
-│   │   ├── __init__.py       
-│   │   ├── asgi.py            
-│   │   ├── settings.py        # Configuración del proyecto
-│   │   ├── urls.py            # Rutas de la API
-│   │   └── wsgi.py            
-│   ├── backend/               # Carpeta principal de la aplicación
-│   │   ├── __pycache__/       
-│   │   ├── migrations/        # Migraciones de la base de datos
-│   │   │   ├── __init__.py    
-│   │   ├── __init__.py        
-│   │   ├── admin.py           
-│   │   ├── apps.py            # Configuración de la aplicación
-│   │   ├── models.py          # Modelos de datos
-│   │   ├── serializer.py       # Serializadores para API
-│   │   ├── tests.py           
-│   │   ├── urls.py            # Rutas de la aplicación
-│   │   └── views.py           # Vistas de la API
-│   ├── env/                   # Entorno virtual
-│   │   ├── db.sqlite3         # Base de datos SQLite
-│──-└── manage.py              # Archivo de gestión de Django
+## redditClone
+### backend
+#### appApi
+- `__pycache__/`       
+- `__init__.py`       
+- `asgi.py`            
+- `settings.py`        # Configuración del proyecto
+- `urls.py`            # Rutas de la API
+- `wsgi.py`            
+
+#### backend
+- `__pycache__/`       
+- `migrations/`        # Migraciones de la base de datos
+  - `__init__.py`    
+- `__init__.py`        
+- `admin.py`           
+- `apps.py`            # Configuración de la aplicación
+- `models.py`          # Modelos de datos
+- `serializer.py`      # Serializadores para API
+- `tests.py`           
+- `urls.py`            # Rutas de la aplicación
+- `views.py`           # Vistas de la API
+
+#### env
+- `db.sqlite3`         # Base de datos SQLite
+
+### Otros archivos
+- `manage.py`          # Archivo de gestión de Django
 
 
-**Backend**
+**Fronted**
 redditClone/
 frontend/                  # Carpeta que contiene el código del frontend
 ├── frontReddit/           # Aplicación React
